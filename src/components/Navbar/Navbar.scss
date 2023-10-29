@@ -1,0 +1,76 @@
+@import "../../utility/utility.styles.scss";
+
+.nav-container{
+    height: 12vh;
+    box-shadow: 0.2px 1px 5px rgb(234, 232, 232) ;
+    background-color: $color-white;
+}
+
+
+.nav-container input{
+    width:550px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 2px auto;
+    font-size: large;
+    text-indent: 13%;
+    background-color: rgba(215, 212, 212, 0.2);
+    border: 1px solid rgba(198, 190, 190, 0.2);
+    &:hover{
+        background-color: $color-white;
+    }
+    &:focus{
+        outline: none;
+    }
+       
+}
+ input::placeholder{
+    padding-left: 1px;
+    letter-spacing: 0.8px;
+}
+
+.myntra-logo{
+    cursor: pointer;
+}
+
+
+.collections {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+   
+  }
+
+li{
+    padding:0 30px ;
+    height: 100%;
+    align-items: center;
+    display: flex;
+       
+}
+.collections li:first-child:hover{
+    border-bottom: 4px solid $shade-1;
+}
+.collections li:nth-child(2):hover{
+    border-bottom: 4px solid $primary;
+}
+.collections li:nth-child(3):hover{
+    border-bottom: 4px solid $secondary;
+}
+.collections li:last-child:hover{
+    border-bottom: 4px solid $shade-2;
+}
+
+.nav-search{
+    position: relative;
+}
+
+.nav-search i{
+    position: absolute;
+    left: 30px;
+    top:12px;
+    padding: 2px 
+  
+}

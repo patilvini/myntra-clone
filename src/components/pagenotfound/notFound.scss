@@ -1,0 +1,27 @@
+@import "../../utility//utility.styles.scss";
+
+.not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.not-found-text{
+    font-size: 25rem;
+    color: $shade-4;
+    font-weight: 400;
+   
+}
+.not-found-body{
+    width: 100vw;
+    height:50vh;
+    background-color: $shade-4;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.sorry{
+    font-size: 6rem;
+    color: rgb(203, 198, 198);
+    letter-spacing: 1px;
+}

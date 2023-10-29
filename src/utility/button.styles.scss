@@ -1,0 +1,49 @@
+@import "./utility.styles.scss";
+
+@mixin button{
+    display: inline-block;
+    min-width:20rem;
+    height: 6rem;
+    outline: none;
+    border-radius: 5px;
+    font-size:large;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: $color-white;
+    
+}
+
+.button-filled{
+    @include button;
+   
+    color:$color-white;
+    &.button-pink{
+        background-color: $shade-3;
+        border: 5px solid $shade-3;
+        &.rounded{
+            width:25rem;
+            border-radius: 50px;
+        }
+
+    }
+    &.button-green{
+        background-color: $secondary;
+        border: 5px solid $secondary;
+
+    }
+    
+}
+
+.button-outlined{
+    @include button;
+    &.button-green{
+        border: 1px solid $secondary;
+        color: $secondary;
+    }
+    &.button-pink{
+        border: 1px solid $shade-3;
+        color: $shade-3;
+    }
+    
+
+}

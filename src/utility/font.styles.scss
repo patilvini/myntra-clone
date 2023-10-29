@@ -1,0 +1,78 @@
+@import "./utility.styles.scss";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 2px;
+  letter-spacing: 0.5px;
+  
+}
+
+h2{
+  font-size:25px ;
+
+}
+
+h3{
+  font-size:20px ;
+  color: $primary;
+}
+
+h4{
+  font-size:15px ;
+  color: $primary;
+}
+
+.bold-text-large{
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.5px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+} 
+
+.bold-text-medium{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+}
+.bold-text-small{
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+}
+
+.normal-text-large{
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+}
+
+.normal-text-medium{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+}
+.normal-text-small{
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+  color: $color-black;
+}
+  
+ .bold-text-medium-gray{
+  color: rgb(100, 98, 98);
+ }
